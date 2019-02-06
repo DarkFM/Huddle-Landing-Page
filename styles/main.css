@@ -1,0 +1,233 @@
+/* Mobile First Approach */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* #site-background-image {
+  background: url()
+} */
+
+body {
+  font-size: 1.125rem;
+  width: 100%;
+}
+
+header {
+  margin: 3rem auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-family: Poppins;
+}
+
+.brand__icon {
+  width: 35%;
+  vertical-align: top;
+}
+
+.brand__icon img {
+  width: 100%;
+}
+
+.button {
+  padding: 0.35rem 0.8rem;
+  background: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 4%;
+  /* max-width: 12rem; */
+  /* max-height: 3rem; */
+  color: hsl(214, 64%, 98%);
+  box-shadow: 0px 0.8px 9px 1px hsla(322, 100%, 66%, 0.5);
+  font-family: inherit;
+}
+
+.header-button {
+  padding: 0.45rem 2rem;
+  vertical-align: top;
+  font-size: 0.8rem;
+  font-size: calc(1vw + 1vh + 1vmin);
+  color: hsl(265, 100%, 66%);
+  background-color:  hsl(214, 64%, 98%);
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+.main-img-wrapper {
+  margin: 5rem auto 3rem auto;
+}
+
+.svg_img {
+  width: 100%;
+}
+
+#cta {
+  margin: 3rem auto;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+}
+
+h1.main-heading {
+  font-size: 2rem;
+}
+
+p {
+  color: hsl(208, 11%, 55%);
+}
+
+p.main-description {
+  font-weight: 400;
+  line-height: 2.5rem;
+  font-size: calc(1.7vw + 1.2vh + 2vmin);
+  padding-bottom: 2rem;
+}
+
+p.main-description + .button {
+  padding: 1.2rem 2.5rem;
+  font-size: 1.1rem;
+  box-shadow: 1px 1px 10px 1.5px hsla(322, 100%, 66%, 0.5);
+}
+
+#conversations {
+  margin: 2rem auto;
+}
+
+.conversations__img-wrapper {
+  padding-top: 7.5rem;
+  padding-bottom: 4rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail {
+  margin: 1.3rem auto;
+}
+
+.detail__subheading {
+  line-height: 2rem;
+}
+
+#freeTrial {
+  margin: 3rem auto;
+  border-radius: 4px;
+  box-shadow: 0px 1px 25px 0.5px hsla(265, 100%, 66%, 0.25);
+  padding: 2rem 0.7rem;
+}
+
+#freeTrial h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#freeTrial p {
+  font-size: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+#freeTrial button {
+  color: hsla(214, 64%, 98%, 0.8);
+  padding: 0.65rem 2.5rem;
+  box-shadow: none;
+  font-size: 1.1rem;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 5rem;
+  color: white;
+  font-family: "Open Sans";
+}
+
+.footer-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+.footer-brand__icon {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.footer-brand__icon svg path {
+  fill: white;
+}
+
+.footer-navigation-links {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+.footer-navigation-link {
+  margin: 1.5rem 0;
+}
+
+.footer-navigation-link a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-subscribe {
+  margin-top: 5.5rem;
+  text-align: center;
+}
+
+.footer-subscribe__heading {
+  font-size: 2rem;
+  text-transform: uppercase; 
+}
+
+.footer-subscribe__description {
+  color: inherit;
+  line-height: 2rem;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+
+.footer-subscribe__input {
+  width: 100%;
+  height: 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.footer-subscribe__subscribe-btn {
+  width: 100%;
+  margin-top: 1.3rem;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  border-radius: 2px;
+}
+
+#social_copyright {
+  margin-top: 6rem;
+  text-align: center;
+  color: white;
+}
+
+.social-links .social-link {
+  margin-left: 1.5rem;
+  font-size: 2.5rem;
+}
+
+#social_copyright .copyright {
+  margin-top: 2rem;
+  color: inherit;
+}
