@@ -40,8 +40,7 @@ header {
   background: hsl(322, 100%, 66%);
   border: none;
   border-radius: 4%;
-  /* max-width: 12rem; */
-  /* max-height: 3rem; */
+  cursor: pointer;
   color: hsl(214, 64%, 98%);
   box-shadow: 0px 0.8px 9px 1px hsla(322, 100%, 66%, 0.5);
   font-family: inherit;
@@ -228,6 +227,192 @@ footer {
 }
 
 #social_copyright .copyright {
-  margin-top: 2rem;
+  padding: 1.5rem 0;
   color: inherit;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 700px)/*  and (max-width: 1440px)  */{
+
+  header {
+    margin-top: 4rem;
+  }
+
+  header .brand__icon,
+  header .header-button {
+    max-width: 25%;
+    width: 100%;
+  }
+
+  header .header-button {
+  }
+
+  header .header-button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    box-shadow: 0px 0.8px 9px 1px hsla(0, 1%, 15%, 0.5);
+  }
+
+  #cta,
+  .main-img-wrapper {
+    width: 70%;
+  }
+
+  #cta {
+    margin-bottom: 15rem;
+  }
+
+  .main-img-wrapper {
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+  }
+
+  #cta .main-heading {
+    font-size: 2.1rem;
+  }
+
+  #cta .main-description {
+    font-size: 1.5rem;
+    line-height: 145%;
+  }
+
+  #freeTrial .button,
+  p.main-description + .button {
+    margin-top: 0.7rem;
+    padding: 1.2rem 4rem;
+    font-size: 1.1rem;
+    color: hsla(214, 64%, 98%, 0.7);
+  }
+
+  #freeTrial .button:hover,
+  #freeTrial .button:active,
+  p.main-description + .button:hover,
+  p.main-description + .button:active {
+    color: hsla(214, 64%, 98%, 1);
+  }
+
+  #conversations {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    justify-items: center;
+  }
+
+  #conversations .details,
+  #conversations .conversations__img-wrapper {
+    width: 45%;
+  }
+
+  #conversations .conversations__img-wrapper {
+    padding: 0;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #conversations .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+  }
+
+  #conversations .detail .detail__paragraph {
+    font-size: 1.2rem;
+  }
+
+  #freeTrial {
+    width: 67%;
+    padding: 2rem 1rem 4rem 1rem;
+    margin-top: 10rem;
+    box-shadow: 5px 0px 40px 8px hsla(0, 1%, 63%, 0.2);
+
+  }
+
+  #freeTrial p {
+    font-size: 0.8rem;
+  }
+
+  #freeTrial .button {
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+  }
+  
+  .footer-wrapper {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+    max-height: 30rem; */
+    align-items: center;
+    /* padding: 10rem 5rem 25rem 5rem; */
+    width: 90%;
+  }
+
+  .footer-wrapper .footer-brand__icon {
+    text-align: left;
+    padding-bottom: .5rem;
+  }
+
+
+  /* ******* Experiment ****** */
+  .footer-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+    margin-top: 2rem;
+    font-size: 1.1rem;
+  }
+  
+  .footer-body > * {
+    width: 32%;
+    padding: 0;
+    margin: 0;
+  }
+
+  #social_copyright {
+    order: -1;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+
+  .social-links .social-link {
+    margin: 0;
+    margin-right: 1.5rem;
+  }
+
+  .footer-navigation-links {
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 11.5rem;
+  }
+
+  .footer-navigation-link {
+    width: 50%;
+    height: 33%;
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .footer-subscribe {
+    text-align: left;
+    /* height: 14rem; */
+  }
+
+  .footer-subscribe__description {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .footer-subscribe__subscribe-btn {
+    padding: 0.8rem 1.2rem;
+    width: 50%;
+    text-align: center;
+    float: right;
+  }
 }
